@@ -37,5 +37,5 @@ cd Personal-Website
 
 8. bind the website to your IPv4 Address
 
-type this to bind it to your ip address but replace 192.168.1.XX with your IPv4 Address (this is temporary and will need to be typed in again if the terminal is shut, you will need to bind it again)
+type this to bind it to your ip address but replace 192.168.1.XX with your IPv4 Address (this is temporary and will need to be typed in again if the terminal is shut, you will need to bind it again):
 hugo server --bind 0.0.0.0 --baseURL http://192.168.1.XX
