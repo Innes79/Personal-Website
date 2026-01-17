@@ -1,0 +1,21 @@
+---
+title: "My Socials"
+date: 2026-01-15
+draft: false
+layout: "socials"
+---
+
+<center>
+
+### Find me on:
+
+[**GitHub**](https://github.com/Innes79)
+*(Check out my code and homelab scripts)*
+
+[**Discord**](https://discordapp.com/users/1174036384927993946)
+*(The best place to chat with me)*
+
+[**Email**](mailto:Innes_Crown@outlook.com)
+*(For more formal inquiries)*
+
+</center>

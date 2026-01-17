@@ -1,0 +1,29 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'Innes'
+theme = 'PaperMod'
+
+[params.menu]
+    defaultTheme = "dark"
+    disableThemeToggle = true
+    externalLinksInNewTab = true # This makes your centered icons open in a new tab
+
+    [params.profileMode]
+        enabled = true
+        title = "**Hobbies 🖥️**"
+        subtitle = "\n- Homelabbing\n - Testing operating systems\n - Building electronics\n - Coding \n - Ordering items from AliExpress\n\n‎"
+        displaySocialIcons = true
+
+    [params.homeInfoParams]
+        enabled = false
+
+# These will appear as big icons in the middle of your screen
+[[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/Innes79"
+[[params.socialIcons]]
+    name = "discord"
+    url = "https://discordapp.com/users/1174036384927993946"
+[[params.socialIcons]]
+    name = "email"
+    url = "mailto:innes.gg@proton.me"

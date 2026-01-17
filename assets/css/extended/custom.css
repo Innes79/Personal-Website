@@ -1,0 +1,66 @@
+/* --- Desktop Settings (Default) --- */
+.profile_inner {
+    transform: scale(1.5); 
+    transform-origin: center;
+    margin-top: 80px; 
+}
+
+.profile_inner h1 {
+    font-size: 52px !important; 
+    margin-bottom: 25px !important;
+    letter-spacing: 1px;
+}
+
+.profile_inner .profile_description {
+    font-size: 22px !important;
+    line-height: 1.8; 
+}
+
+.social-icons a svg {
+    height: 36px !important;
+    width: 36px !important;
+}
+
+/* Hover effect for mouse users */
+.social-icons a:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+/* --- Mobile Settings (Detects Phones) --- */
+@media screen and (max-width: 700px) {
+    .profile_inner {
+        transform: scale(1.0); 
+        margin-top: 40px; 
+        padding: 0 20px;
+    }
+
+    .profile_inner h1 {
+        font-size: 32px !important;
+    }
+
+    .profile_inner .profile_description {
+        font-size: 18px !important;
+        line-height: 1.5;
+    }
+
+    .social-icons {
+        margin-top: 25px !important;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .social-icons a svg {
+        height: 32px !important;
+        width: 32px !important;
+    }
+}
+
+/* --- The Click/Tap Effect --- */
+/* This works on both PC clicks and Phone taps */
+.social-icons a:active {
+    transform: scale(0.9); /* Shrinks slightly when pressed */
+    transition: 0.1s;
+}
